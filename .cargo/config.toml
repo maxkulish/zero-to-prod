@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [target.x86_64-unknown-linux-gnu]
 rustflags = ["-C", "linker=clang", "-C", "link-arg=-fuse-ld=lld"]
 
@@ -13,7 +12,3 @@ rustflags = ["-C", "link-arg=-fuse-ld=/usr/local/bin/zld"]
 
 [target.aarch64-apple-darwin]
 rustflags = ["-C", "link-arg=-fuse-ld=/usr/local/bin/zld"]
-=======
-[target.x86_64-apple-darwin]
-rustflags = ["-C", "link-arg=-fuse-ld=/usr/local/bin/zld"]
->>>>>>> 57f8e65 (before configuration management)
