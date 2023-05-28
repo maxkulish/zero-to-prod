@@ -1,7 +1,7 @@
 application_port: 9000
 database:
-    host: "127.0.0.1"
-    port: 5432
-    database_name: "newsletter"
-    username: "postgres"
-    password: "postgres"
+  host: "localhost"
+  port: 5432
+  username: "zero2proder"
+  password: "new_password"
+  database_name: "newsletter"
