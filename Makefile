@@ -8,6 +8,7 @@ _help_:
 	@echo make build - build binary
 	@echo make audit - run audit
 	@echo make coverage - run coverage
+	@echo make lint - run linter
 
 .PHONY: help fmt test build audit expand coverage
 
@@ -28,3 +29,6 @@ coverage:
 
 expand:
 	cargo expand
+
+lint:
+	cargo clippy --all-targets --all-features -- -D warnings
