@@ -32,3 +32,6 @@ expand:
 
 lint:
 	cargo clippy --all-targets --all-features -- -D warnings
+
+clean-deps:
+	cargo +nightly udeps --all-targets --all-features
